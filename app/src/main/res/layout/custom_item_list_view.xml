@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="12dp"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools">
+
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/listTitle"
+    android:text="Title"
+    android:textColor="@color/principal"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+</androidx.appcompat.widget.AppCompatTextView>
+
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/seeAll"
+    android:text="Ver todos"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:textColor="@color/principal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+</androidx.appcompat.widget.AppCompatTextView>
+
+
+
+    <br.com.lea.easyvendas.ui.utils.customviews.HorizontalBulletListView
+        android:layout_width="match_parent"
+        android:id="@+id/bulletList"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+
+
+
+    </br.com.lea.easyvendas.ui.utils.customviews.HorizontalBulletListView>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/itensListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:listitem="@layout/item_scripts_day"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/bulletList">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+
+    <include
+        android:id="@+id/buttonAllMap"
+        layout="@layout/item_button_maps"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="@id/itensListView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itensListView"
+        ></include>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

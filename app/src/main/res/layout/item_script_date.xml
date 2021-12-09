@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_card_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="5dp"
+
+    >
+
+    <TextView
+        android:id="@+id/textDateWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Ter"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/textDateDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textSize="35dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/principal"
+        app:layout_constraintTop_toBottomOf="@+id/textDateWeek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

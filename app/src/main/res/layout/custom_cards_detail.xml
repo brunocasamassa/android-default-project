@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    app:cardElevation="8dp"
+    android:elevation="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageLogoComponent"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_leaf" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textTitleStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Hortifruti"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageLogoComponent"
+            app:layout_constraintTop_toBottomOf="@+id/imageLogoComponent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="R. Pais Leme, 524 \nPinheiros,\n São Paulo"
+            app:layout_constraintStart_toStartOf="@+id/textTitleStore"
+            app:layout_constraintTop_toBottomOf="@+id/textTitleStore" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="30 dias"
+            android:textColor="@color/principal"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textDescription"
+            app:layout_constraintTop_toBottomOf="@+id/textDescription" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>

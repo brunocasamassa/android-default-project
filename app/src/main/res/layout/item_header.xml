@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#FAF6F6"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Atualizado em: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_update_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="00:00 - 00.00.00"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView00"
+        app:layout_constraintTop_toBottomOf="@+id/textView00" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_leaf" />
+
+    <ImageView
+        android:id="@+id/menuHamburg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="@+id/text_update_hora"
+        app:layout_constraintTop_toBottomOf="@+id/text_update_hora"
+        android:background="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="31dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Olá,"
+        android:textColor="@color/principal"
+        app:layout_constraintStart_toStartOf="@+id/menuHamburg"
+        app:layout_constraintTop_toBottomOf="@+id/menuHamburg" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/principal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:text="Felipe A. " />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Menu"
+        android:textColor="@color/principal"
+        app:layout_constraintBottom_toBottomOf="@+id/menuHamburg"
+        app:layout_constraintStart_toEndOf="@+id/menuHamburg"
+        app:layout_constraintTop_toTopOf="@+id/menuHamburg" />
+
+    <ImageView
+        android:id="@+id/icDropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textName"
+        app:layout_constraintStart_toEndOf="@+id/textName"
+        app:layout_constraintTop_toTopOf="@+id/textName"
+        app:srcCompat="@drawable/caminho" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

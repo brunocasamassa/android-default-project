@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/margin_8dp"
+    android:layout_height="wrap_content">
+<androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/btnRadioSample"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="14dp"
+    android:paddingHorizontal="16sp"
+    android:paddingVertical="4dp"
+    android:background="@drawable/selector_custom_background_radiobutton_uncheck"
+    android:textColor="@color/principal"
+    android:gravity="center"
+    android:textAlignment="center"
+    tools:text="Em Aberto">
+
+</androidx.appcompat.widget.AppCompatTextView> </androidx.appcompat.widget.LinearLayoutCompat>

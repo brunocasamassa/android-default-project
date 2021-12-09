@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "441928894010",
+    "project_id": "easy-vendas-b2394",
+    "storage_bucket": "easy-vendas-b2394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441928894010:android:7f98b4b91f488c72311703",
+        "android_client_info": {
+          "package_name": "br.com.lea.easyvendas.leao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441928894010-ac8kpl7sot2ctktomh1fp4fc5bfq9g3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB39CPFwjW0rsJEWQKd1cgqXiaeU5nXKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441928894010-ac8kpl7sot2ctktomh1fp4fc5bfq9g3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441928894010:android:16ce5da6e0be97fc311703",
+        "android_client_info": {
+          "package_name": "br.com.lea.easyvendas.verde_campo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441928894010-ac8kpl7sot2ctktomh1fp4fc5bfq9g3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB39CPFwjW0rsJEWQKd1cgqXiaeU5nXKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441928894010-ac8kpl7sot2ctktomh1fp4fc5bfq9g3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

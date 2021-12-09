@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="4dp"
+    android:padding="@dimen/margin_8dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:elevation="5dp"
+    app:cardCornerRadius="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_custom_background_creditcard"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="Meta total"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textMetaValor"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxLength="10"
+            android:text="250,000"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bonificação"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textMetaValor"
+            app:layout_constraintEnd_toEndOf="@+id/btnIconAdd"
+            app:layout_constraintTop_toTopOf="@+id/textMetaValor"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textFirstDayMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="01/08"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/ss"
+            app:layout_constraintTop_toBottomOf="@+id/ss" />
+
+        <TextView
+            android:id="@+id/textLastDayMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="31/08"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="@+id/ss"
+            app:layout_constraintTop_toBottomOf="@+id/ss" />
+
+        <TextView
+            android:id="@+id/textToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Hoje"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/textLastDayMonth"
+            app:layout_constraintStart_toEndOf="@+id/textFirstDayMonth"
+            app:layout_constraintTop_toBottomOf="@+id/ss" />
+
+
+        <TextView
+            android:id="@+id/txtNotificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/shape_custom_background_border_white"
+            android:drawableEnd="@drawable/ic_arrow_dropdown"
+            android:gravity="center"
+            android:paddingStart="4dp"
+            android:text="Dia  "
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/textView15"
+            app:layout_constraintEnd_toStartOf="@+id/btnIconAdd"
+            app:layout_constraintTop_toTopOf="@+id/textView15"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textValorAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_custom_background_border_white"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="R$ 40.000"
+            android:textColor="@color/principal"
+            android:textSize="14sp"
+            app:backgroundTint="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/ss"
+            app:layout_constraintStart_toStartOf="@+id/ss"
+            app:layout_constraintTop_toBottomOf="@+id/textMetaValor" />
+
+        <TextView
+            android:id="@+id/ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_custom_background_border_white"
+            android:gravity="center"
+            android:padding="1dp"
+            android:textSize="14sp"
+            app:backgroundTint="@color/principal_700"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textValorAtual" />
+
+        <TextView
+            android:id="@+id/textPorcent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="65%"
+            android:textColor="@color/principal"
+            app:drawableLeftCompat="@drawable/ic_arrow_up"
+            app:layout_constraintBottom_toBottomOf="@+id/ss"
+            app:layout_constraintEnd_toEndOf="@+id/ss"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="@+id/ss"
+            app:layout_constraintTop_toTopOf="@+id/ss" />
+
+        <ImageView
+            android:id="@+id/btnIconAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_custom"
+            app:layout_constraintBottom_toBottomOf="@+id/txtNotificacoes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtNotificacoes"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/textToday"
+            app:layout_constraintEnd_toEndOf="@+id/textValorAtual"
+            app:layout_constraintStart_toStartOf="@+id/textValorAtual"
+            app:layout_constraintTop_toBottomOf="@+id/textValorAtual"
+            app:srcCompat="@drawable/line_dotted" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">EasyVendas</string>
+
+    <!--  LoginFragment  -->
+    <string name="hello">Olá</string>
+    <string name="errorLogin">Campo vazio!</string>
+    <string name="esqueci_minha_senha"><u>Esqueci minha senha</u></string>
+
+
+    <!--  RigisterFragment  -->
+    <string name="title_cadastro">Cadastro</string>
+    <string name="message_success_change_password">Sua senha foi cadastrada com sucesso. \nFaça o login novamente com seu usuário \nsua nova senha</string>
+    <string name="message_subtitle">"Confirme seu nome de usuario e cadastre \numa nova senha para continuar"</string>
+    <string name="parabens">Parabéns</string>
+    <string name="message_senha_cadastra_register">"Sua senha foi cadastrada com sucesso.\n Faça o login novamente com seu usuário \ne sua nova senha"</string>
+    <string name="title_senha_incorreta">Senha incorreta</string>
+    <string name="message_senha_incorreta">Você executou 3 vezes a sua senha errada, ela foi bloqueada e agora será necessário cadastrar uma nova senha.</string>
+
+    <!--  ChangePasswordFragment  -->
+    <string name="title_change_password">Senha</string>
+    <string name="title_new_password">Nova senha</string>
+    <string name="title_contactSMS_change_password">Contato</string>
+    <string name="title_contactEmail_change_password">Email</string>
+    <string name="title_codigo_change_password">Código</string>
+
+    <string name="message_change_select_password">"Sua senha é chave de acesso ao nosso \naplicativo, selecione uma opção para \nrecuperar sua senha."</string>
+    <string name="message_codigoSMS_change_password">"Insira no campo abaixo o código que \nenviamos para você por SMS."</string>
+    <string name="message_codigoEmail_change_password">"Insira no campo abaixo o código que \nenviamos para você por Email."</string>
+    <string name="message_success_finish_change_password">"Sua senha foi cadastrada com sucesso!"</string>
+    <string name="message_contactSMS_change_password">"Seu código será enviado para o número \nque temos cadastrado."</string>
+    <string name="message_contactEmail_change_password">"Seu código será enviado para o email  que \ntemos cadastrado."</string>
+    <string name="message_new_password">"Agora coloque uma nova senha e repita ela \nnovamente nos campos abaixo."</string>
+    <string name="bom_ve_lo_por_aqui">"Bom vê-lo por aqui. \nFaça login para continuar ou cadastre \numa senha se for seu primeiro acesso."</string>
+    <string name="senha_cadastrada">"Senha\nCadastrada"</string>
+
+    <!--  Buttons  -->
+    <string name="alterar_por_sms">ALTERAR POR SMS</string>
+    <string name="alterar_por_email">ALTERAR POR EMAIL</string>
+    <string name="alterar">ALTERAR</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="avancar">AVANÇAR</string>
+    <string name="salvar">SALVAR</string>
+    <string name="login">LOGIN</string>
+    <string name="salvar_usuario">Salvar usuário</string>
+    <string name="meu_1_acesso">MEU 1° ACESSO</string>
+    <string name="ajuda">" Ajuda"</string>
+    <string name="enter">ENTRAR</string>
+    <string name="tentar_outra_forma">Tentar outra forma</string>
+    <string name="reenviar_codigo">Reenviar código</string>
+    <string name="cadastra_nova_senha">CADASTRA NOVA SENHA</string>
+
+    <!--  hint  -->
+    <string name="hint_senha">Senha</string>
+    <string name="hint_usuario">Usuário</string>
+    <string name="hint_repetir_senha">Repetir Senha</string>
+    <string name="hint_confirmar_senha">Confirmar senha</string>
+    <string name="hint_codigo">código</string>
+    <string name="hint_email">Email</string>
+
+    <!--    -->
+    <string name="regras_de_senha">A senha deve ser composta por, no mínimo, 8 caracteres, sendo letras, números e, pelo menos, um caractere especial e um caractere maiúsculo.</string>
+    <string name="valida_campos_senha">Você deve digitar a mesma senha nos 2 campos.</string>
+    <string name="title_activity_item_bell_alert_view">item_bell_alert_view</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="categories">Categorias</string>
+    <string name="clean_filter">Limpar filtros</string>
+    <string name="define_hour">Definir Horário</string>
+
+
+    <string-array name="list_uf">
+        <item>SP</item>
+        <item>RJ</item>
+        <item>MG</item>
+        <item>AM</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>SE</item>
+    </string-array>
+
+    <string-array name="list_channel">
+        <item>Canal 1</item>
+        <item>Canal 2</item>
+        <item>Canal 3</item>
+        <item>Canal 4</item>
+        <item>Canal 5</item>
+        <item>Canal 6</item>
+        <item>Canal 7</item>
+        <item>Canal 8</item>
+        <item>Canal 9</item>
+        <item>Canal 10</item>
+    </string-array>
+
+
+    <string-array name="list_filter_type">
+        <item>Razão social</item>
+        <item>CNPJ</item>
+        <item>Código do cliente</item>
+    </string-array>
+
+
+    <string-array name="list_neighboors">
+        <item>Higienópolis</item>
+        <item>Santo Amaro</item>
+        <item>Jardim Bélgica</item>
+        <item>Pinheiros</item>
+        <item>Campo Grande</item>
+        <item>Campo Grande</item>
+        <item>Campo Grande</item>
+        <item>Campo Grande</item>
+        <item>Campo Grande</item>
+        <item>Campo Grande</item>
+    </string-array>
+
+
+    <string-array name="list_city">
+        <item>Sao Paulo</item>
+        <item>Sao Bernardo</item>
+        <item>Salvador</item>
+        <item>Rio de Janeiro</item>
+        <item>Manaus</item>
+        <item>Sao Paulo</item>
+        <item>Manaus</item>
+        <item>Sao Paulo</item>
+        <item>Manaus</item>
+        <item>Sao Paulo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

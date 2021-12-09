@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:textSize="45dp"
+        android:text="Roteiro"
+        android:textStyle="bold"
+        android:textColor="@color/principal"
+        />
+    <TextView
+        android:id="@+id/textDialogBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Os últimos 3 roteiros definidos aparecerão na Home para Lembra-lo da sua agenda. Para ver sua agenda copleta, vá para a roteirizalção."
+        android:fontFamily="@font/montserrat"/>
+    <Button
+        android:id="@+id/btnDialog"
+        style="@style/style_button"
+        android:textSize="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50dp"
+        android:text="VER ROTEIRIZAÇÃO" />
+</androidx.appcompat.widget.LinearLayoutCompat>

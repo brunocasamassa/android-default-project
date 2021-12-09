@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_card_product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardElevation="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/text_porcentagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15%"
+            android:layout_margin="@dimen/margin_8dp"
+            android:textColor="@color/principal"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/linearimg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/text_date2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Desconto até 20/03"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/text_porcentagem"
+            app:layout_constraintEnd_toEndOf="@+id/linearimg"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/text_porcentagem"
+            app:layout_constraintTop_toTopOf="@+id/text_porcentagem"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/linearimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/white"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_date2">
+
+            <ImageView
+                android:id="@+id/img_promo"
+                android:layout_width="166dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/img_promo_action" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearimg">
+
+            <TextView
+                android:id="@+id/textCodProduct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Cod. 0001110" />
+
+            <TextView
+                android:id="@+id/text_des_promo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="MORANGO 28G"
+                android:textColor="@color/principal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textCodProduct" />
+
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="500g"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/text_des_promo"
+                app:layout_constraintStart_toStartOf="@+id/text_des_promo"
+                app:layout_constraintTop_toBottomOf="@+id/text_des_promo" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/text_vendas"
+                style="@style/style_button"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/selector_custom_background_radiobutton_product_false"
+                android:drawableLeft="@drawable/star_product_leao"
+                android:paddingHorizontal="@dimen/margin_8dp"
+                android:text="Mix prioritario"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/text_description"
+                app:layout_constraintStart_toStartOf="@id/text_description"
+                app:layout_constraintTop_toBottomOf="@id/text_description">
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+
+    <br.com.lea.easyvendas.ui.utils.customviews.HeaderSearchView
+        android:id="@+id/headerSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </br.com.lea.easyvendas.ui.utils.customviews.HeaderSearchView>
+
+
+    <br.com.lea.easyvendas.ui.utils.listproducts.view.components.ListProductComponent
+        android:id="@+id/listProductsComponent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/headerSearch"
+        app:layout_constraintTop_toBottomOf="@id/headerSearch"></br.com.lea.easyvendas.ui.utils.listproducts.view.components.ListProductComponent>
+
+
+    <TextView
+        android:id="@+id/btnContinueOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_custom_background_border_button"
+        android:elevation="@dimen/margin_12dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Confirmar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textScaleX="1.1"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

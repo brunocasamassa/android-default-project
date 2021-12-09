@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/margin_8dp"
+    app:cardElevation="8dp"
+    android:padding="@dimen/margin_8dp">
+
+
+        <CheckBox
+            android:id="@+id/circleTicked"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/shape_custom_background_circle_grey"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:button="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/circleTicked"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeCNPJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="00000111"
+                    android:textColor="@color/grey_500"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Mercado Vila Olimpia"
+                    android:textSize="16sp"
+                    android:textColor="@color/principal"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/storeCNPJ"></androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Atacadao RJ"
+                    android:textColor="@color/grey_500"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/storeTitle"></androidx.appcompat.widget.AppCompatTextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

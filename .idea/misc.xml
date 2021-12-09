@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aury0n/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_new_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aury0n/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_products.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aury0n/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_products_detail.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aury0n/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_second.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aury0n/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Aury0n/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores_calendar.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2589041095890411" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/rounded_no_border.xml" value="0.2589041095890411" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/rounded_rectangle_no_border.xml" value="0.2589041095890411" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/shape_custom_background_border_button.xml" value="0.26575342465753427" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/font/montserrat.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_new_home.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores.xml" value="0.4779116465863454" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores_filter.xml" value="0.22" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_bullet_view.xml" value="0.5" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_clients_stores.xml" value="0.33" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_stores_view.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_view_categories.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_view_product_detail.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/drawable/ic_arrow.xml" value="0.2703125" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/custom_button_radius_grey.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/custom_button_radius_white.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/custom_card_total_value.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/custom_cards_detail.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/custom_item_list_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/dialog_road_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/fragment_new_home.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/fragment_orders.xml" value="0.17147922998986828" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/fragment_products_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/frame_list_product_component.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/header_search_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/ic_alert_purchase_completed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/ic_button_custom.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_alert.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_bullet_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_button_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_clients_stores.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_layout_table.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_scripts_day.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_selected_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_stores_roadmap.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_view_categories.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/item_view_product_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/product_detail_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/view_amount_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/view_product_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bruno/Documents/android-default-project/app/src/main/res/layout/viewflipper_insert_cod.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/leao/res/layout/item_credit_card.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/background_c4_amount_item.xml" value="0.25625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/background_line_green.xml" value="0.25625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/button_rounded_shape.xml" value="0.26875" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_less_blue.xml" value="0.26875" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_less_green.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_lock_new.xml" value="0.25625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_plus_blue.xml" value="0.25625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_plus_green.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/ic_thrash.xml" value="0.25625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/rounded_rectangle_no_border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/drawable/style_calendar.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/c4_list_product_component.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/c4_list_product_fragment.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/c4_view_amount_item.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/c4_view_product_item.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/custom_card_total_value.xml" value="0.33" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/custom_cards_datail.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/custom_cards_detail.xml" value="0.5" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_menu.xml" value="0.31068840579710144" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_new_home.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_orders.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_orders_final.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_products.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_products_detail.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_roadmap.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_roadmaps.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_schedule_definition.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_search_maps_stores.xml" value="0.22" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores.xml" value="0.33" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores_calendar.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/fragment_stores_filter.xml" value="0.22" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/frame_list_product_component.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/header_search_view.xml" value="0.2625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_alert.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_bullet_view.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_button_maps.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_clients_stores.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_header.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_layout_table.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_product_category_header.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_product_category_view.xml" value="0.31068840579710144" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_product_view.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_promo_action.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_scripts_day.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_selected_view.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_stores_roadmap.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_stores_view.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_view_categories.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/item_view_product_detail.xml" value="0.2515625" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/list_product_fragment.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/product_detail_activity.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/view_amount_item.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/bruno/Documents/easyvendas-app-android/app/src/main/res/layout/view_product_item.xml" value="0.2526041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

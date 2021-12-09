@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="CustomButtonRadius">
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCreditCard" tools:ignore="DuplicateDefinition">
+        <attr name="textMetaValor" format="string"/>
+        <attr name="textFaltaMetaValor" format="string"/>
+        <attr name="textDiasUteis" format="string"/>
+        <attr name="textDiasCorridos" format="string"/>
+        <attr name="textPorcentIdeal" format="string"/>
+        <attr name="textPorcentGrafic" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomViewHeader" tools:ignore="DuplicateDefinition">
+        <attr name="textUdateHora" format="string"/>
+        <attr name="textName" format="string"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomCreditCardLeao" tools:ignore="DuplicateDefinition">
+        <attr name="textMetaValue" format="string"/>
+        <attr name="textValorAtual" format="string"/>
+        <attr name="textPorcent" format="string"/>
+        <attr name="textFirstDayMonth" format="string"/>
+        <attr name="textToday" format="string"/>
+        <attr name="textLastDayMonth" format="string"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomCardViewAction">
+        <attr name="itemPromo" format="string"/>
+        <attr name="date" format="string"/>
+        <attr name="porcentagen" format="string"/>
+        <attr name="description" format="string"/>
+        <attr name="src" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCardViewScripts">
+        <attr name="address" format="string"/>
+        <attr name="time" format="string"/>
+        <attr name="rota" format="string"/>
+        <attr name="card_rota" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCardViewTotalItensAndValue">
+        <attr name="textItensCard" format="string"/>
+        <attr name="textValueCard" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCardViewDatail">
+        <attr name="textImageCard" format="string"/>
+        <attr name="textTitleCard" format="string"/>
+        <attr name="textDescriptionCard" format="string"/>
+        <attr name="textDateCard" format="string"/>
+    </declare-styleable>
+
+
+</resources>

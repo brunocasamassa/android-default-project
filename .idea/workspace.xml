@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+        <device id="pixel_3a_xl" />
+        <device id="pixel_4" />
+        <device id="Nexus 6" />
+        <device id="Nexus 6P" />
+        <device id="Nexus 9" />
+        <device id="Nexus 7 2013" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c4da9fb-fd2b-432d-97ed-f5dea469292a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\bruno\.android\avd\Nexus_5X_API_27.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EasyVendas" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EasyVendas" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EasyVendas" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="Kotlin File" />
+        <option value="valueResourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
+        <option value="Kotlin Data Class" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="custom_component" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wdp32uUSsxagTHnoC60zV5lOOf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="EasyVendas.app" />
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_27 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="br.com.lea.easyvendas.leao" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.3.0/45a346a05e7ff27a01c59452379c5939cbb53c03/appcompat-1.3.0-sources.jar!/androidx/appcompat/widget/SearchView.java_SELECTED" value="SearchView" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.3.1/45a346a05e7ff27a01c59452379c5939cbb53c03/appcompat-1.3.1-sources.jar!/androidx/appcompat/widget/LinearLayoutCompat.java_SELECTED" value="LinearLayoutCompat" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.3.1/45a346a05e7ff27a01c59452379c5939cbb53c03/appcompat-1.3.1-sources.jar!/androidx/appcompat/widget/SearchView.java_SELECTED" value="SearchView" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/androidx/cardview/widget/CardView.java_SELECTED" value="CardView" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.swiperefreshlayout/swiperefreshlayout/1.0.0/ab92d86c004eb1d48e45f311b02ca53d6c86b607/swiperefreshlayout-1.0.0-sources.jar!/androidx/swiperefreshlayout/widget/SwipeRefreshLayout.java_SELECTED" value="SwipeRefreshLayout" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_SELECTED" value="ViewPager" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/appbar/AppBarLayout.java_SELECTED" value="AppBarLayout" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/appbar/CollapsingToolbarLayout.java_SELECTED" value="CollapsingToolbarLayout" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/button/MaterialButton.java_SELECTED" value="MaterialButton" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/card/MaterialCardView.java_SELECTED" value="MaterialCardView" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.synnapps/carouselview/0.1.5/9340aefd483379e8948975a1c1d2659b70b7e261/carouselview-0.1.5-sources.jar!/com/synnapps/carouselview/CarouselView.java_SELECTED" value="CarouselView" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.synnapps/carouselview/0.1.5/9340aefd483379e8948975a1c1d2659b70b7e261/carouselview-0.1.5-sources.jar!/com/synnapps/carouselview/CirclePageIndicator.java_SELECTED" value="CirclePageIndicator" />
+    <property name="android-custom-viewC:/Users/Bruno/.gradle/caches/modules-2/files-2.1/com.tbuonomo/dotsindicator/4.2/51e093668d4289e5ec4f2a2b0f43825cfb6e9629/dotsindicator-4.2-sources.jar!/com/tbuonomo/viewpagerdotsindicator/BaseDotsIndicator.kt_SELECTED" value="BaseDotsIndicator" />
+    <property name="android-custom-viewC:/Users/Bruno/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/Bruno/AppData/Local/Android/Sdk/sources/android-29/android/widget/FrameLayout.java_SELECTED" value="FrameLayout" />
+    <property name="android-custom-viewC:/Users/Bruno/AppData/Local/Android/Sdk/sources/android-29/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="android-custom-viewC:/Users/Bruno/AppData/Local/Android/Sdk/sources/android-29/android/widget/SeekBar.java_SELECTED" value="SeekBar" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/leao/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCreditCard.kt_CustomCreditCard_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/leao/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCreditCard.kt_SELECTED" value="CustomCreditCard" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/CustomCarouselView.kt_SELECTED" value="CustomCarouselView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemProductView.kt_SELECTED" value="ItemProductView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemPromoView.kt_SELECTED" value="ItemPromoView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemStoreView.kt_SELECTED" value="ItemStoreView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItensListView.kt_SELECTED" value="tensListView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/SearchBarEditText.kt_SELECTED" value="SearchBarEditText" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/productdetails/CarouselViewLibExtracted.java_SELECTED" value="CarouselView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/productdetails/CarouselViewPagerExtracted.java_SELECTED" value="CarouselViewPagerExtracted" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/productdetails/CirclePageIndicatorExtracted.java_SELECTED" value="CirclePageIndicator" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/products/views/SearchBarEditText.kt_SELECTED" value="SearchBarEditText" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/products/views/SelectedCategoryView.kt_SELECTED" value="SelectedCategoryView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomButtonRadiusDarkGrey.kt_SELECTED" value="CustomButtonRadiusDarkGrey" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomButtonRadiusGrey.kt_SELECTED" value="CustomButtonRadiusGrey" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCardViewAction.kt_SELECTED" value="CustomCardViewAction" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCardViewScripts.kt_SELECTED" value="CustomCardViewScripts" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCreditCard.kt_SELECTED" value="CustomCreditCard" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCreditCardLeao.kt_SELECTED" value="CustomCreditCardLeao" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomRadioButton.kt_SELECTED" value="CustomRadioButton" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomViewHeader.kt_SELECTED" value="CustomViewHeader" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/HorizontalBulletListView.kt_SELECTED" value="HorizontalBulletListView" />
+    <property name="android-custom-viewC:/Users/Bruno/Documents/easyvendas-app-android/app/src/verde_campo/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCreditCard.kt_SELECTED" value="CustomCreditCard" />
+    <property name="android-custom-viewC:/Users/bruno/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.3.1/45a346a05e7ff27a01c59452379c5939cbb53c03/appcompat-1.3.1-sources.jar!/androidx/appcompat/widget/LinearLayoutCompat.java_SELECTED" value="LinearLayoutCompat" />
+    <property name="android-custom-viewC:/Users/bruno/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/bruno/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/card/MaterialCardView.java_SELECTED" value="MaterialCardView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/android-default-project/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/components/ListProductComponent.kt_SELECTED" value="ListProductComponent" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/CustomCarouselView.kt_CustomCarouselView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/CustomCarouselView.kt_SELECTED" value="CustomCarouselView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemProductView.kt_ItemProductView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemProductView.kt_SELECTED" value="ItemProductView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemPromoView.kt_ItemPromoView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemPromoView.kt_SELECTED" value="ItemPromoView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemStoreView.kt_ItemStoreView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/ItemStoreView.kt_SELECTED" value="ItemStoreView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/home/views/adapters/ItemOrdersView.kt_SELECTED" value="ItemOrdersView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/products/views/SelectedCategoryView.kt_SELECTED" value="SelectedCategoryView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/products/views/SelectedCategoryView.kt_SelectedCategoryView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CardDetailView.kt_SELECTED" value="CardDetailView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomButtonRadiusDarkGrey.kt_SELECTED" value="CustomButtonRadiusDarkGrey" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomButtonRadiusGrey.kt_SELECTED" value="CustomButtonRadiusGrey" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCardViewScripts.kt_CustomCardViewScripts_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCardViewScripts.kt_SELECTED" value="CustomCardViewScripts" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCardViewTotalItensAndValue.kt_SELECTED" value="CustomCardViewTotalItensAndValue" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomCardsHorizontalList.kt_SELECTED" value="CustomCardsHorizontalList" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomViewHeader.kt_CustomViewHeader_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/CustomViewHeader.kt_SELECTED" value="CustomViewHeader" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/HeaderSearchView.kt_HeaderSearchView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/HeaderSearchView.kt_SELECTED" value="HeaderSearchView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/HorizontalBulletListView.kt_HorizontalBulletListView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/HorizontalBulletListView.kt_SELECTED" value="HorizontalBulletListView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/ItemBulletView.kt_ItemBulletView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/ItemBulletView.kt_SELECTED" value="ItemBulletView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/stores/ItemBulletView.kt_ItemBulletView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/stores/ItemBulletView.kt_SELECTED" value="ItemBulletView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/stores/StoresRoadmapView.kt_SELECTED" value="StoresRoadmapView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/stores/StoresRoadmapView.kt_StoresRoadmapView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/components/ListProductComponent.kt_SELECTED" value="ListProductComponent" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/customviews/c4/subviews/C4ItemAmountView.kt_SELECTED" value="C4ItemAmountView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/customviews/fragmentviews/subviews/C4ItemAmountView.kt_SELECTED" value="C4ItemAmountView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/customviews/fragmentviews/subviews/C4ProductItemView.kt_SELECTED" value="C4ProductItemView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/customviews/fragmentviews/subviews/ItemAmountView.kt_SELECTED" value="ItemAmountView" />
+    <property name="android-custom-viewC:/Users/bruno/Documents/easyvendas-app-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/listproducts/view/customviews/fragmentviews/subviews/ProductItemView.kt_SELECTED" value="ProductItemView" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\main\java\br\com\lea\easyvendas\domain\usecase\orders" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\main\res\drawable" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\verde_campo\res\drawable" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\main\res\layout" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\main\java\br\com\lea\easyvendas\ui\fragment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\main\java\br\com\lea\easyvendas\ui\fragment" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\main" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app\src\leao" />
+      <recent name="C:\Users\bruno\Documents\easyvendas-app-android\app" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="br.com.lea.easyvendas.ui.utils.customviews" />
+      <recent name="br.com.lea.easyvendas.ui.fragment.home.views" />
+      <recent name="br.com.lea.easyvendas.ui.fragment.products.models" />
+      <recent name="br.com.lea.easyvendas.ui.fragment.products.adapter" />
+      <recent name="br.com.lea.easyvendas.domain.model" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.lea.easyvendas.ui.fragment.stores.adapters" />
+      <recent name="br.com.lea.easyvendas.domain.model.stores" />
+      <recent name="br.com.lea.easyvendas.data.user" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="br.com.lea.easyvendas.di" />
+      <recent name="br.com.lea.easyvendas.ui.fragment.scheduledefinition" />
+      <recent name="br.com.lea.easyvendas.ui.utils.customviews.stores" />
+      <recent name="br.com.lea.easyvendas.ui.utils.customviews" />
+      <recent name="br.com.lea.easyvendas.ui.fragment.stores" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="EasyVendas.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c4da9fb-fd2b-432d-97ed-f5dea469292a" name="Default Changelist" comment="" />
+      <created>1628798117343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628798117343</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/productdetails/ProductsDetailFragment.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/productdetails/ProductsDetailFragment.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/stores/StoreFilterFragment.kt</url>
+          <line>144</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/stores/StoreFilterFragment.kt</url>
+          <line>210</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/stores/StoreFilterFragment.kt</url>
+          <line>213</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/stores/StoreFilterFragment.kt</url>
+          <line>221</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/roadmap/RoadmapCalendarFragment.kt</url>
+          <line>62</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/roadmap/RoadmapCalendarFragment.kt</url>
+          <line>60</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/stores/StoresRoadmapView.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/utils/customviews/stores/StoresRoadmapView.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/roadmap/RoadMapsFragment.kt</url>
+          <line>75</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/roadmap/RoadMapsFragment.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/../easyvendas-app-verdecampo-android/app/src/main/java/br/com/lea/easyvendas/ui/fragment/roadmap/RoadMapsFragment.kt</url>
+          <line>57</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/SafeResponse.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/SafeResponse.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/SafeResponse.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/SafeResponse.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/SafeResponse.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/session/interceptors/AuthInterceptor.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/apimanager/src/main/java/br/com/lea/apimanager/session/interceptors/ResponseInterceptor.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/lea/easyvendas/ui/fragment/orders/OrdersFragment.kt</url>
+          <line>139</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/lea/easyvendas/ui/fragment/orders/OrdersViewModel.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/lea/easyvendas/ui/fragment/orders/OrdersViewModel.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/lea/easyvendas/ui/fragment/orders/OrdersViewModel.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/lea/easyvendas/ui/fragment/orders/OrdersFragment.kt</url>
+          <line>92</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerAdapter.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="br.com.lea.apimanager.SafeResponse$NetworkError" memberName="errorMessage" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

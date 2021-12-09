@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout1SearchMaps"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+<TextView
+    android:id="@+id/textView00"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Atualizado em: "
+    android:textSize="8dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textHour"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:text="00:00 - 00.00.00"
+    android:textSize="12sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="@+id/textView00"
+    app:layout_constraintTop_toBottomOf="@+id/textView00" />
+
+
+<TextView
+    android:id="@+id/textUsername"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="4dp"
+    android:textColor="@color/principal"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toStartOf="@id/icDropdown"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="Joao silva" />
+
+<ImageView
+    android:id="@+id/icDropdown"
+    android:layout_width="8sp"
+    android:layout_height="8sp"
+    android:layout_marginTop="4sp"
+    app:layout_constraintBottom_toBottomOf="@id/textUsername"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/textUsername"
+    app:srcCompat="@drawable/caminho" />
+
+
+<androidx.appcompat.widget.SearchView
+    android:id="@+id/searchBarStoresMaps"
+    style="@style/style_search_view_products"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_8dp"
+    android:elevation="4dp"
+    android:queryBackground="@android:color/transparent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/textHour"></androidx.appcompat.widget.SearchView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textHour"
+        android:id="@+id/suggestedLabelView"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:elevation="@dimen/margin_16dp"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/arrowLabel"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_height="48dp"></androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Seus Pedidos"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/arrowLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatTextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

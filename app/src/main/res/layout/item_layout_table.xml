@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="horizontal|vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:scrollbars="horizontal|vertical">
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:stretchColumns="3">
+
+
+                <TableRow android:layout_width="wrap_content">
+
+                    <TextView
+                        android:background="@color/white"
+                        android:padding="3dip"
+                        android:text="Unidade de venda:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:background="@color/grey_50"
+                        android:padding="3dip"
+                        android:text="KG"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/grey_100"
+                        android:padding="3dip"
+                        android:text="Quantidade de \nunidades na caixa:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:padding="3dip"
+                        android:text="KG"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:padding="3dip"
+                        android:text="Dimensões \nembalagem \nde embarque:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:padding="3dip"
+                        android:text="Altura 96mm"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Largura"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/grey_100"
+                        android:padding="3dip"
+                        android:text="Tipo embalagem \nde embarque:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:padding="3dip"
+                        android:text="Caixa"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:padding="3dip"
+                        android:text="Peso liquido caixa \n(peso produto) kg:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:padding="3dip"
+                        android:text="5,640\n(peso médio)"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/grey_100"
+                        android:padding="3dip"
+                        android:text="Peso bruto caixa\n(produto + emb \nprimaria + caixa):"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:padding="3dip"
+                        android:text="6,0 (peso médio"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:padding="3dip"
+                        android:text="Dimensões do produto:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:padding="3dip"
+                        android:text="Altura 96mm"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Largura"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/grey_100"
+                        android:padding="3dip"
+                        android:text="Peso liquido do \nproduto em kg:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:padding="3dip"
+                        android:text="0,400"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:padding="3dip"
+                        android:text="Temperatura de \narmazenagem:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:padding="3dip"
+                        android:text="1°C a 8°C"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/grey_100"
+                        android:padding="3dip"
+                        android:text="Prazo de validde \nem dias:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:padding="3dip"
+                        android:text="45"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_25"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Ctrl-E"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@color/white"
+                        android:padding="3dip"
+                        android:text="Paletização:"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:padding="3dip"
+                        android:text="Lastro 8 cx"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_50"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Altura"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
