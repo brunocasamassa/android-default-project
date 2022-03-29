@@ -34,8 +34,7 @@ class HorizontalBulletListView(context: Context, val attributeSet: AttributeSet?
 
             with(button) {
                 show(true)
-                //paintUncheck(this)
-                text = name
+                text = " $name "
 
                 setOnClickListener {
                     refreshList()
